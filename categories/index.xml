@@ -1,47 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on ylxxwx personal website</title>
-    <link>https://ylxxwx.github.io/categories/</link>
-    <description>Recent content in Categories on ylxxwx personal website</description>
+    <title>Personal Site – Categories</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Personal Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 04 Mar 2023 09:20:35 -0500</lastBuildDate><atom:link href="https://ylxxwx.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>category</title>
-      <link>https://ylxxwx.github.io/categories/category/</link>
-      <pubDate>Sat, 04 Mar 2023 09:20:35 -0500</pubDate>
-      
-      <guid>https://ylxxwx.github.io/categories/category/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-    <item>
-      <title>computer</title>
-      <link>https://ylxxwx.github.io/categories/computer/</link>
-      <pubDate>Sat, 04 Mar 2023 09:20:35 -0500</pubDate>
-      
-      <guid>https://ylxxwx.github.io/categories/computer/</guid>
-      <description></description>
-    </item>
+	  <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>os</title>
-      <link>https://ylxxwx.github.io/categories/os/</link>
-      <pubDate>Sat, 04 Mar 2023 09:20:35 -0500</pubDate>
-      
-      <guid>https://ylxxwx.github.io/categories/os/</guid>
-      <description></description>
-    </item>
     
-    <item>
-      <title>subcategory</title>
-      <link>https://ylxxwx.github.io/categories/subcategory/</link>
-      <pubDate>Sat, 04 Mar 2023 09:20:35 -0500</pubDate>
       
-      <guid>https://ylxxwx.github.io/categories/subcategory/</guid>
-      <description></description>
-    </item>
+        
+      
+    
     
   </channel>
 </rss>
