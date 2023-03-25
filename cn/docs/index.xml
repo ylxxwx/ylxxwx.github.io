@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ylxxwx home – TechOS-Dokumentasjon</title>
+    <title>ylxxwx home – TechOS-Documents</title>
     <link>/cn/docs/</link>
-    <description>Recent content in TechOS-Dokumentasjon on ylxxwx home</description>
+    <description>Recent content in TechOS-Documents on ylxxwx home</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	  <atom:link href="/cn/docs/index.xml" rel="self" type="application/rss+xml" />
