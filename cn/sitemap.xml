@@ -15,6 +15,71 @@
                 href="/cn/docs/"
                 />
   </url><url>
+    <loc>/cn/blog/news/</loc>
+    <lastmod>2023-03-25T11:31:22-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/blog/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/blog/news/"
+                />
+  </url><url>
+    <loc>/cn/blog/releases/</loc>
+    <lastmod>2023-03-25T11:31:22-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/blog/releases/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/blog/releases/"
+                />
+  </url><url>
+    <loc>/cn/blog/2018/10/06/easy-documentation-with-docsy/</loc>
+    <lastmod>2023-03-25T11:31:22-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/blog/2018/10/06/easy-documentation-with-docsy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/blog/2018/10/06/easy-documentation-with-docsy/"
+                />
+  </url><url>
+    <loc>/cn/blog/2018/10/06/the-second-blog-post/</loc>
+    <lastmod>2023-03-25T11:31:22-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/blog/2018/10/06/the-second-blog-post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/blog/2018/10/06/the-second-blog-post/"
+                />
+  </url><url>
+    <loc>/cn/blog/2018/01/04/another-great-release/</loc>
+    <lastmod>2023-03-25T11:31:22-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/blog/2018/01/04/another-great-release/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/blog/2018/01/04/another-great-release/"
+                />
+  </url><url>
     <loc>/cn/docs/cloud-computing/tutorials/the-math-of-microservices-detailed-spec/</loc>
     <lastmod>2023-03-11T09:47:55-05:00</lastmod>
   </url><url>
@@ -186,6 +251,19 @@
     <loc>/cn/docs/big-data/the-math-of-monographs-how-does-it-work/</loc>
     <lastmod>2023-03-11T09:47:55-05:00</lastmod>
   </url><url>
+    <loc>/cn/blog/</loc>
+    <lastmod>2023-03-25T11:31:22-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/blog/"
+                />
+  </url><url>
     <loc>/cn/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -224,7 +302,7 @@
                 />
   </url><url>
     <loc>/cn/</loc>
-    <lastmod>2023-03-12T23:33:58-04:00</lastmod>
+    <lastmod>2023-03-25T11:31:22-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
