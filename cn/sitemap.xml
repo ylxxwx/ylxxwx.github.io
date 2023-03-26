@@ -41,6 +41,9 @@
                 href="/cn/blog/releases/"
                 />
   </url><url>
+    <loc>/cn/docs/software-design-c&#43;&#43;/dci-design/</loc>
+    <lastmod>2023-03-26T10:02:59-04:00</lastmod>
+  </url><url>
     <loc>/cn/blog/2018/10/06/easy-documentation-with-docsy/</loc>
     <lastmod>2023-03-25T11:31:22-04:00</lastmod>
     <xhtml:link
@@ -223,6 +226,9 @@
   </url><url>
     <loc>/cn/docs/api-reference/</loc>
     <lastmod>2023-03-11T09:47:55-05:00</lastmod>
+  </url><url>
+    <loc>/cn/docs/software-design-c&#43;&#43;/</loc>
+    <lastmod>2023-03-26T10:02:59-04:00</lastmod>
   </url><url>
     <loc>/cn/docs/big-data/examples/</loc>
     <lastmod>2023-03-11T09:47:55-05:00</lastmod>
