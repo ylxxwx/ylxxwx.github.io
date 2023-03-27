@@ -68,68 +68,18 @@
   </url><url>
     <loc>/blog/news/</loc>
     <lastmod>2023-03-04T11:18:10-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/blog/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/blog/news/"
-                />
   </url><url>
     <loc>/blog/releases/</loc>
     <lastmod>2023-03-04T11:18:10-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/blog/releases/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/blog/releases/"
-                />
   </url><url>
     <loc>/blog/2018/10/06/easy-documentation-with-docsy/</loc>
     <lastmod>2023-03-04T11:18:10-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/blog/2018/10/06/easy-documentation-with-docsy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/blog/2018/10/06/easy-documentation-with-docsy/"
-                />
   </url><url>
     <loc>/blog/2018/10/06/the-second-blog-post/</loc>
     <lastmod>2023-03-04T11:18:10-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/blog/2018/10/06/the-second-blog-post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/blog/2018/10/06/the-second-blog-post/"
-                />
   </url><url>
     <loc>/blog/2018/01/04/another-great-release/</loc>
     <lastmod>2023-03-04T11:18:10-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="/cn/blog/2018/01/04/another-great-release/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/blog/2018/01/04/another-great-release/"
-                />
   </url><url>
     <loc>/categories/</loc>
     <lastmod>2023-03-04T11:18:10-05:00</lastmod>

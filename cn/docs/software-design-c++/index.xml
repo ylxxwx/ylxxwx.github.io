@@ -1,10 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ylxxwx home – DCI design for C&#43;&#43;</title>
+    <title>ylxxwx home – Software Design Practice</title>
     <link>/cn/docs/software-design-c&#43;&#43;/</link>
-    <description>Recent content in DCI design for C&#43;&#43; on ylxxwx home</description>
+    <description>Recent content in Software Design Practice on ylxxwx home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 02 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Mar 2023 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="/cn/docs/software-design-c++/index.xml" rel="self" type="application/rss+xml" />
     

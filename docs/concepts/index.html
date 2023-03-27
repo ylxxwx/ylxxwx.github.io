@@ -109,7 +109,7 @@ if (!doNotTrack) {
     <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
     </button>
   </form>
-  <nav class="collapse td-sidebar-nav" id="td-section-nav">
+  <nav class="collapse td-sidebar-nav foldable-nav" id="td-section-nav">
     <div class="nav-item dropdown d-block d-lg-none">
       
 
@@ -127,63 +127,103 @@ if (!doNotTrack) {
   <a href="/docs/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-docs"><span class="">Documentation</span></a>
   <ul class="ul-1">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsoverview-li">
-  <a href="/docs/overview/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsoverview"><span class="">Overview</span></a>
+  <input type="checkbox" id="m-docsoverview-check"/>
+  <label for="m-docsoverview-check"><a href="/docs/overview/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-docsoverview"><span class="">Overview</span></a></label>
+  
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docsgetting-started-li">
-  <a href="/docs/getting-started/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsgetting-started"><span class="">Getting Started</span></a>
+  <input type="checkbox" id="m-docsgetting-started-check"/>
+  <label for="m-docsgetting-started-check"><a href="/docs/getting-started/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-docsgetting-started"><span class="">Getting Started</span></a></label>
+  
   <ul class="ul-2 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsgetting-startedexample-page-li">
-  <a href="/docs/getting-started/example-page/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-docsgetting-startedexample-page"><span class="">Example Page</span></a>
+  <input type="checkbox" id="m-docsgetting-startedexample-page-check"/>
+  <label for="m-docsgetting-startedexample-page-check"><a href="/docs/getting-started/example-page/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-docsgetting-startedexample-page"><span class="">Example Page</span></a></label>
+  
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docsnetworks-li">
-  <a href="/docs/networks/" title="Network knowledges" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsnetworks"><span class="">Networks</span></a>
+  <input type="checkbox" id="m-docsnetworks-check"/>
+  <label for="m-docsnetworks-check"><a href="/docs/networks/" title="Network knowledges" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-docsnetworks"><span class="">Networks</span></a></label>
+  
   <ul class="ul-2 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsnetworksmtu-li">
-  <a href="/docs/networks/mtu/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-docsnetworksmtu"><span class="">MTU</span></a>
+  <input type="checkbox" id="m-docsnetworksmtu-check"/>
+  <label for="m-docsnetworksmtu-check"><a href="/docs/networks/mtu/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-docsnetworksmtu"><span class="">MTU</span></a></label>
+  
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsexamples-li">
-  <a href="/docs/examples/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsexamples"><span class="">Examples</span></a>
+  <input type="checkbox" id="m-docsexamples-check"/>
+  <label for="m-docsexamples-check"><a href="/docs/examples/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-docsexamples"><span class="">Examples</span></a></label>
+  
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-docsconcepts-li">
-  <a href="/docs/concepts/" class="align-left pl-0 active td-sidebar-link td-sidebar-link__section" id="m-docsconcepts"><span class="td-sidebar-nav-active-item">Concepts</span></a>
+  <input type="checkbox" id="m-docsconcepts-check" checked/>
+  <label for="m-docsconcepts-check"><a href="/docs/concepts/" class="align-left pl-0  active td-sidebar-link td-sidebar-link__section" id="m-docsconcepts"><span class="td-sidebar-nav-active-item">Concepts</span></a></label>
+  
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docstasks-li">
-  <a href="/docs/tasks/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docstasks"><span class="">Core Tasks</span></a>
+  <input type="checkbox" id="m-docstasks-check"/>
+  <label for="m-docstasks-check"><a href="/docs/tasks/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-docstasks"><span class="">Core Tasks</span></a></label>
+  
   <ul class="ul-2 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docstasksbeds-li">
-  <a href="/docs/tasks/beds/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-docstasksbeds"><span class="">Bed and Chair Metrics</span></a>
+  <input type="checkbox" id="m-docstasksbeds-check"/>
+  <label for="m-docstasksbeds-check"><a href="/docs/tasks/beds/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-docstasksbeds"><span class="">Bed and Chair Metrics</span></a></label>
+  
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docstasksporridge-li">
-  <a href="/docs/tasks/porridge/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-docstasksporridge"><span class="">Porridge Assessment</span></a>
+  <input type="checkbox" id="m-docstasksporridge-check"/>
+  <label for="m-docstasksporridge-check"><a href="/docs/tasks/porridge/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-docstasksporridge"><span class="">Porridge Assessment</span></a></label>
+  
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docstaskstask-li">
-  <a href="/docs/tasks/task/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-docstaskstask"><span class="">Another Task</span></a>
+  <input type="checkbox" id="m-docstaskstask-check"/>
+  <label for="m-docstaskstask-check"><a href="/docs/tasks/task/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-docstaskstask"><span class="">Another Task</span></a></label>
+  
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docstasksponycopters-li">
-  <a href="/docs/tasks/ponycopters/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docstasksponycopters"><span class="">Working with Ponycopters</span></a>
+  <input type="checkbox" id="m-docstasksponycopters-check"/>
+  <label for="m-docstasksponycopters-check"><a href="/docs/tasks/ponycopters/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-docstasksponycopters"><span class="">Working with Ponycopters</span></a></label>
+  
   <ul class="ul-3 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docstasksponycoptersconfiguring-ponycopters-li">
-  <a href="/docs/tasks/ponycopters/configuring-ponycopters/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-docstasksponycoptersconfiguring-ponycopters"><span class="">Configuring Ponycopters</span></a>
+  <input type="checkbox" id="m-docstasksponycoptersconfiguring-ponycopters-check"/>
+  <label for="m-docstasksponycoptersconfiguring-ponycopters-check"><a href="/docs/tasks/ponycopters/configuring-ponycopters/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-docstasksponycoptersconfiguring-ponycopters"><span class="">Configuring Ponycopters</span></a></label>
+  
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docstasksponycopterslaunching-ponycopters-li">
-  <a href="/docs/tasks/ponycopters/launching-ponycopters/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-docstasksponycopterslaunching-ponycopters"><span class="">Launching Ponycopters</span></a>
+  <input type="checkbox" id="m-docstasksponycopterslaunching-ponycopters-check"/>
+  <label for="m-docstasksponycopterslaunching-ponycopters-check"><a href="/docs/tasks/ponycopters/launching-ponycopters/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-docstasksponycopterslaunching-ponycopters"><span class="">Launching Ponycopters</span></a></label>
+  
 </li>
   </ul>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docstutorials-li">
-  <a href="/docs/tutorials/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docstutorials"><span class="">Tutorials</span></a>
+  <input type="checkbox" id="m-docstutorials-check"/>
+  <label for="m-docstutorials-check"><a href="/docs/tutorials/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-docstutorials"><span class="">Tutorials</span></a></label>
+  
   <ul class="ul-2 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docstutorialsmulti-bear-li">
-  <a href="/docs/tutorials/multi-bear/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-docstutorialsmulti-bear"><span class="">Multi-Bear Domicile Setup</span></a>
+  <input type="checkbox" id="m-docstutorialsmulti-bear-check"/>
+  <label for="m-docstutorialsmulti-bear-check"><a href="/docs/tutorials/multi-bear/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-docstutorialsmulti-bear"><span class="">Multi-Bear Domicile Setup</span></a></label>
+  
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docstutorialstutorial2-li">
-  <a href="/docs/tutorials/tutorial2/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-docstutorialstutorial2"><span class="">Another Tutorial</span></a>
+  <input type="checkbox" id="m-docstutorialstutorial2-check"/>
+  <label for="m-docstutorialstutorial2-check"><a href="/docs/tutorials/tutorial2/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-docstutorialstutorial2"><span class="">Another Tutorial</span></a></label>
+  
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docsreference-li">
-  <a href="/docs/reference/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docsreference"><span class="">Reference</span></a>
+  <input type="checkbox" id="m-docsreference-check"/>
+  <label for="m-docsreference-check"><a href="/docs/reference/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-docsreference"><span class="">Reference</span></a></label>
+  
   <ul class="ul-2 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsreferenceparameter-reference-li">
-  <a href="/docs/reference/parameter-reference/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-docsreferenceparameter-reference"><span class="">Parameter Reference</span></a>
+  <input type="checkbox" id="m-docsreferenceparameter-reference-check"/>
+  <label for="m-docsreferenceparameter-reference-check"><a href="/docs/reference/parameter-reference/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-docsreferenceparameter-reference"><span class="">Parameter Reference</span></a></label>
+  
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontribution-guidelines-li">
-  <a href="/docs/contribution-guidelines/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docscontribution-guidelines"><span class="">Contribution Guidelines</span></a>
+  <input type="checkbox" id="m-docscontribution-guidelines-check"/>
+  <label for="m-docscontribution-guidelines-check"><a href="/docs/contribution-guidelines/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-docscontribution-guidelines"><span class="">Contribution Guidelines</span></a></label>
+  
 </li>
   </ul>
 </li>
