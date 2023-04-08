@@ -1,11 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ylxxwx home – Documents</title>
-    <link>/cn/docs/</link>
-    <description>Recent content in Documents on ylxxwx home</description>
+    <title>ylxxwx home – C&#43;&#43; Software Design</title>
+    <link>/cn/docs/uncatogoried/</link>
+    <description>Recent content in C&#43;&#43; Software Design on ylxxwx home</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 08 Apr 2023 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="/cn/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/cn/docs/uncatogoried/index.xml" rel="self" type="application/rss+xml" />
     
     
       
